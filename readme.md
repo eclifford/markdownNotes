@@ -1,54 +1,44 @@
 # _Project_
 
-_Description: What does this project do and who does it serve?_
+_Markdown Notes is a Alfred 2.0 workfow for searching(Alfred), storing(Dropbox), creating(Sublime Text) markdown notes._
 
-## Project Setup
+## Install
 
-_How do I, as a developer, start working on the project?_ 
+- [Verify your have Alfred 2 w/powerpack installed](https://buy.alfredapp.com/)
+- [Download Workflow](https://github.com/eclifford/markdownNotes/raw/master/Markdown%20Notes.alfredworkflow)
+- [Make sure sublime is setup to launch from command line](http://www.sublimetext.com/docs/2/osx_command_line.html)
+- This workflow assumes your notes are stored in **~/dropbox/notes** if you need another location then you'll have to edit the workflow.
 
-1. _What dependencies does it have (where are they expressed) and how do I install them?_
-2. _How can I see the project working before I change anything?_
+## Workflow
 
-## Testing
+### Search Notes
 
-_How do I run the project's automated tests?_
+> Trigger: `notes search <argument>`
 
-### Unit Tests
+![Search Notes](http://f.cl.ly/items/412P2M2Y1z1d0s2h221j/Screen%20Shot%202013-10-07%20at%203.08.02%20PM.png)
 
-1. `rake spec`
+### List all notes 
 
-### Integration Tests
+> Trigger: `notes list`
 
-1. _Run other local services / provide credentials for external services._
-2. `rake spec:integration`
+![List Notes](http://f.cl.ly/items/2S3m2S232q3D0h3a3V3a/Screen%20Shot%202013-10-07%20at%203.07.39%20PM.png)
 
-## Deploying
+Listing notes will display them in Alfred for selection.
 
-### _How to setup the deployment environment_
+![List Notes Detail](http://f.cl.ly/items/332i1T1W133g3H050I0r/Screen%20Shot%202013-10-07%20at%203.07.47%20PM.png)
 
-- _Required heroku addons, packages, or chef recipes._
-- _Required environment variables or credentials not included in git._
-- _Monitoring services and logging._
+### Create a new note
 
-### _How to deploy_
+> Trigger: `notes new <argument>`
 
-## Troubleshooting & Useful Tools
+![Sublime Workflow](http://f.cl.ly/items/2P3D2v0I2O0t0I1A3W2K/Screen%20Shot%202013-10-07%20at%203.08.46%20PM.png)
 
-_Examples of common tasks_
+## Optional
 
-> e.g.
-> 
-> - How to make curl requests while authenticated via oauth.
-> - How to monitor background jobs.
-> - How to run the app through a proxy.
+- [Optionally install the awesome OmniMarkupPreviewer sublime plugin so you can preview markdown files as you write them.](https://github.com/timonwong/OmniMarkupPreviewer)
 
-## Contributing changes
-
-- _Internal git workflow_
-- _Pull request guidelines_
-- _Tracker project_
-- _Google group_
-- _irc channel_
-- _"Please open github issues"_
+## Troubleshooting 
 
 ## License
+
+[MIT License](http://zenorocha.mit-license.org/) © Eric Clifford
