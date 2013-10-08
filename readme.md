@@ -1,4 +1,4 @@
-# _Project_
+# _Markdown Notes_
 
 _Markdown Notes is a Alfred 2.0 workfow for searching(Alfred), storing(Dropbox), creating(Sublime Text) markdown notes._
 
